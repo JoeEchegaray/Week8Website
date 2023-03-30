@@ -4,49 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week7-Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Week 8-Home</title>
 </head>
-<body>
-    <header>
-        <h1>Joe Echegaray's Week 7 Website</h1><br>
-            <a href="index.html">Home Page</a><br>
-            <a href="about.html">Work / Education Experience</a><br>
-            <a href="contact.html">Contact Me</a><br>
-    </header>
-    <main>
-        <h2>About Me</h2>
-        <div>
+<body class="body">
+    <nav class="navbar">
+        <h1>Joe Echegaray's Website</h1><br>
+        <ul>
+            <li> <a href="index.html">Home Page</a><br> </li>
+            <li> <a href="about.html">Work / Education Experience</a><br> </li>
+            <li> <a href="contact.html">Contact Me</a><br> </li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <h2 class="h2Text">About Me</h2>
+        <div class="textDiv">
             <p>
                 Hello! My Name is Joseph Echegaray, however I generally go by Joe. I am 32 Years old and currently taking a Front End Software Development Course to add to my knowledge.
                 I currently work as an Underground Miner at a Gold Mine, and I also am a volunteer Firefighter and Advanced EMT. I have been working to make a business of my own on the side doing
                 Website Development specifically targeted for Small Businesses, StartUps, and Non-Profit Agencies at reasonable costs, and I am taking this course to further my knowledge to be able to
                 further that desire. 
-            </p>
+            </p> <br>
             <p>   
                 I also am looking forward to learning how to develop Web Based Applications, which I believe I can also use to create Web Apps for First Responders and agencies that I work with to optimize certain 
                 aspects of the business and responses when calls for service are recieved.  
-            </p>
+            </p> <br>
             <p>
                 Some of my Hobbies include Music, Vehicle Restoration, Video Games, Computer Building, and I've most recently gotten back into Paintballing which is a fun but constant reminder that I'm not getting any younger. 
                 Below are some pictures of me from Paintball Trips over the last couple years, as well as the Jeep J20 that belonged to my grandpa which I am working on rebuilding as a show truck. 
-            </p>
+            </p> <br>
             <p>
                 Also a fun fact about myself, I volunteer with the Medical Group at Burning Man, This year will be my 5th year as a medical volunteer for the Burning Man Event! It may be hot and dusty out there, but it's alot of fun!
             </p>
         </div>
-        <div>
-            <h3>A Few Pictures from hobbies and stuff I enjoy</h3> <br>
+
+    <h3 class="h3Text">A Few Pictures from hobbies and stuff I enjoy</h3> <br>
+
+        <div class="photoDiv">
             <img src="Photos/pb1.jpg" width="250">
             <img src="Photos/pb2.jpg" width="250">
             <img src="Photos/pb3.jpg" width="250">
             <img src="Photos/Jeep1.jpg" width="250">
             <img src="Photos/Jeep2.jpg" width="250">
-
         </div>
 
         <div>
-            <form>
-                <h3>Do we share any of these interests in common? If so Which ones?</h3>
+            <form class="formDiv">
+                <h3 class="h3Text">Do we share any of these interests in common? If so Which ones?</h3>
                 <input type="checkbox" id="music" name="music" value="Music">
                 <label for="music"> Music</label><br>
                 <input type="checkbox" id="videogames" name="videogames" value="Video Games">
